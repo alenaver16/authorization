@@ -1,0 +1,19 @@
+header {
+  display: table-row;
+  height: fit-content; }
+  header #navbarHeader {
+    padding: .2rem 1rem; }
+    header #navbarHeader .row > div {
+      padding: .5rem 1rem; }
+      @media (max-width: 767px) {
+        header #navbarHeader .row > div {
+          padding: .3rem .5rem; } }
+      header #navbarHeader .row > div p {
+        margin-bottom: 0; }
+    @media (max-width: 767px) {
+      header #navbarHeader {
+        font-size: 14px; }
+        header #navbarHeader h4 {
+          font-size: 1.5rem; } }
+
+/*# sourceMappingURL=header.css.map */

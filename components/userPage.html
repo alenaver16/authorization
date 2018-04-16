@@ -1,0 +1,126 @@
+<?php
+require('php/userInfo.php');
+?>
+<div class="canvas" id="userPageBlock">
+    <div class="mainContainer" id="userPage">
+        <div class="container">
+            <div class="for_form" >
+                <div class="form" id="user_page">
+                    <form id="userInfo" action="" method="post">
+                        <h4>User data</h4>
+                        <label>Login: <?php echo $arr["login"] ?> </label><br>
+                        <label>Email: <?php echo $arr["email"] ?> </label><br>
+                        <input type="submit" name="edit" value="Edit information" class="btn btn-success">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="userEdit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="background-color: rgba(72,72,72,0.7);opacity: 0.9;">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel" style="color: #fff; text-align:center"></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #fff;"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="canvas">
+                    <div class="mainContainer">
+                        <div class="container">
+                            <div class="for_form">
+                                <div class="form">
+                                    <form  method="post" id="edit_form">
+                                        <h4>User data</h4>
+                                        <label>Login: </label>
+                                        <input type="text" name="login" placeholder="Login" value="<?php echo $arr['login'] ?>" required><br>
+                                        <label>Email:  </label><br>
+                                        <input type="email" name="email" placeholder="Email" value="<?php echo $arr['email'] ?>" required><br>
+                                        <label>Password:  </label><br>
+                                        <input type="password" name="password" placeholder="Password" value="" required><br>
+                                        <label>Confirm password: </label><br>
+                                        <input type="password" name="checking-password" placeholder="Confirm password" value="" required><br>
+                                        <input type="submit" name="edit" value="Edit information"  class="btn btn-success">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p style="text-align:center"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="container formcontainer usercont" id="userPageBlock" style="display: none;">-->
+    <!--<form class="user_form" action="" method="post">-->
+        <!--<span class="spanabout">Information</span>-->
+        <!--<div id="form">-->
+            <!--<div class="inputs">-->
+                <!--<label for="log">Login</label>-->
+                <!--<input type="text" name="login" id="log" placeholder="" value="<? echo $arr['login']; ?>" disabled>-->
+            <!--</div>-->
+            <!--<div class="inputs">-->
+                <!--<label for="email">Email</label>-->
+                <!--<input type="email" name="email" id="email" placeholder="" value="<? echo $arr['email']; ?>" disabled>-->
+            <!--</div>-->
+            <!--<div class="inputs">-->
+                <!--<label for="pass">Password</label>-->
+                <!--<input type="password" name="password" id="pass" placeholder="Password" value="" disabled>-->
+            <!--</div>-->
+            <!--<div class="inputs">-->
+                <!--<input type="submit" value="Edit information" name="edit">-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</form>-->
+<!--</div>-->
+
+<!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
+    <!--<div class="modal-dialog" role="document">-->
+        <!--<form action="" method="post" class="edit_form">-->
+            <!--<div class="modal-content">-->
+                <!--<div class="modal-header">-->
+                    <!--<h5 class="modal-title" id="exampleModalLabel">Edit information</h5>-->
+                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+                        <!--<span aria-hidden="true">&times;</span>-->
+                    <!--</button>-->
+                <!--</div>-->
+                <!--<div class="modal-body">-->
+                    <!--<div class="form-group row">-->
+                        <!--<label for="inputLogin" class="col-sm-2 col-form-label">Login</label>-->
+                        <!--<div class="col-sm-10">-->
+                            <!--<input type="text" name="login" class="form-control" id="inputLogin" placeholder="Login" value="<? echo $arr['login']; ?>">-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="form-group row">-->
+                        <!--<label for="inputEmail" class="col-sm-2 col-form-label">Email</label>-->
+                        <!--<div class="col-sm-10">-->
+                            <!--<input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email" value="<? echo $arr['email']; ?>">-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="form-group row">-->
+                        <!--<label  class="col-sm-2 col-form-label">Password</label>-->
+                        <!--<div class="col-sm-10">-->
+                            <!--<input type="password" name="password" class="form-control"  placeholder="Password" value="">-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="form-group row">-->
+                        <!--<label  class="col-sm-2 col-form-label">Confirm Password</label>-->
+                        <!--<div class="col-sm-10">-->
+                            <!--<input type="password" name="password_confirm" class="form-control"  placeholder="Confirm Password" value="">-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="modal-footer">-->
+                    <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+                    <!--<input type="submit" class="btn btn-primary" value="Save changes" name="saveedit">-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</form>-->
+    <!--</div>-->
+<!--</div>-->

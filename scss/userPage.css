@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#userPageBlock {
+  display: none; }
+  #userPageBlock #userPage {
+    background: url("http://thecodeplayer.com/u/m/b1.png") no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative; }
+    #userPageBlock #userPage .for_form {
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      max-width: 450px;
+      padding: 30px;
+      margin: 0 25%; }
+      #userPageBlock #userPage .for_form h4 {
+        text-align: center;
+        font-size: 25px;
+        color: #fff; }
+      #userPageBlock #userPage .for_form .btn-success {
+        font-size: 20px;
+        font-weight: normal; }
+      #userPageBlock #userPage .for_form .form {
+        max-width: 200px;
+        margin: 25px auto; }
+        #userPageBlock #userPage .for_form .form label {
+          color: #ffffff; }
+        #userPageBlock #userPage .for_form .form input[type="text"], #userPageBlock #userPage .for_form .form input[type="password"], #userPageBlock #userPage .for_form .form input[type="email"] {
+          margin: 5px 0;
+          background: none;
+          color: #fff;
+          font-size: 20px;
+          width: 100%;
+          height: 35px;
+          border: 2px solid #fff;
+          border-radius: 4px;
+          padding: 10px;
+          outline: none; }
+          #userPageBlock #userPage .for_form .form input[type="text"]:focus, #userPageBlock #userPage .for_form .form input[type="password"]:focus, #userPageBlock #userPage .for_form .form input[type="email"]:focus {
+            outline: 0;
+            border-color: #449d44; }
+          #userPageBlock #userPage .for_form .form input[type="text"]:-webkit-autofill, #userPageBlock #userPage .for_form .form input[type="password"]:-webkit-autofill, #userPageBlock #userPage .for_form .form input[type="email"]:-webkit-autofill {
+            -webkit-box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.85) !important;
+            /* ╨ж╨▓╨╡╤В ╤Д╨╛╨╜╨░ */
+            -webkit-text-fill-color: #fff !important;
+            /* ╤Ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ */
+            color: #fff !important;
+            /* ╤Ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ */ }
+        #userPageBlock #userPage .for_form .form input[type="button"] {
+          margin: 10px auto;
+          width: 100%; }
+          #userPageBlock #userPage .for_form .form input[type="button"]:focus {
+            outline: 0; }
+
+/*# sourceMappingURL=userPage.css.map */

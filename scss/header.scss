@@ -1,0 +1,22 @@
+header {
+  display: table-row;
+  height: fit-content;
+  #navbarHeader {
+    padding: .2rem 1rem;
+    .row > div {
+      padding: .5rem 1rem;
+      @media(max-width: 767px) {
+        padding: .3rem .5rem;
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
+    @media(max-width: 767px) {
+      font-size: 14px;
+      h4 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

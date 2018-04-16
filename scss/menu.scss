@@ -1,0 +1,35 @@
+    #navbarMenu {
+      display: table-row;
+      background: url('http://thecodeplayer.com/u/m/b1.png') no-repeat;
+      background-size: cover;
+        border: 0;
+        border-radius: 0px;
+        font-size: 25px;
+        .navbar{
+          opacity: 0.6;
+          background-color: rgba(0, 0, 0, 0.27);
+        }
+        .navbar-nav > li > a {
+            padding-top: 26.5px;
+            padding-bottom: 26.5px;
+            line-height: 27px;
+          @media(max-width: 767px){
+            font-size: 20px;
+            padding-top: 1%;
+            padding-bottom: 1%;
+          }
+        }
+        .navbar-nav > p {
+            padding: 7px;
+            padding-right: 0;
+        }
+        navbar-collapse {
+            position: relative;
+        }
+  //    @media(max-width: 767px){
+  //      font-size: 20px;
+  //
+  //      padding-top: 26.5px;
+  //      padding-bottom: 26.5px
+  //}
+}

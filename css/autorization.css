@@ -1,0 +1,78 @@
+@charset "UTF-8";
+#autorization {
+  background: url("http://thecodeplayer.com/u/m/b1.png") no-repeat;
+  height: 100%;
+  position: relative;
+  background-size: cover; }
+  #autorization .for_form {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    max-width: 450px;
+    padding: 30px;
+    margin: 0 25%; }
+    #autorization .for_form h4 {
+      text-align: center;
+      font-size: 25px;
+      color: #fff; }
+    #autorization .for_form .btn-success {
+      font-size: 20px;
+      font-weight: normal; }
+    #autorization .for_form .log-auth-btn {
+      margin-top: 1.5rem; }
+      #autorization .for_form .log-auth-btn #sign_up {
+        margin-left: 1%; }
+        @media (max-width: 767px) {
+          #autorization .for_form .log-auth-btn #sign_up {
+            margin-top: 2%;
+            margin-left: 0; } }
+    #autorization .for_form #forget {
+      padding-top: 5px;
+      width: 250px;
+      font-size: 22px;
+      white-space: nowrap;
+      /* ╨Ч╨░╨┐╤А╨╡╤Й╨░╨╡╨╝ ╨┐╨╡╤А╨╡╨╜╨╛╤Б ╤Б╤В╤А╨╛╨║ */
+      overflow: hidden;
+      /* ╨Ю╨▒╤А╨╡╨╖╨░╨╡╨╝ ╨▓╤Б╨╡, ╤З╤В╨╛ ╨╜╨╡ ╨┐╨╛╨╝╨╡╤Й╨░╨╡╤В╤Б╤П ╨▓ ╨╛╨▒╨╗╨░╤Б╤В╤М */
+      text-overflow: ellipsis;
+      /* ╨Ф╨╛╨▒╨░╨▓╨╗╤П╨╡╨╝ ╨╝╨╜╨╛╨│╨╛╤В╨╛╤З╨╕╨╡ */ }
+      #autorization .for_form #forget a {
+        color: #fff;
+        white-space: nowrap;
+        /* ╨Ч╨░╨┐╤А╨╡╤Й╨░╨╡╨╝ ╨┐╨╡╤А╨╡╨╜╨╛╤Б ╤Б╤В╤А╨╛╨║ */
+        overflow: hidden;
+        /* ╨Ю╨▒╤А╨╡╨╖╨░╨╡╨╝ ╨▓╤Б╨╡, ╤З╤В╨╛ ╨╜╨╡ ╨┐╨╛╨╝╨╡╤Й╨░╨╡╤В╤Б╤П ╨▓ ╨╛╨▒╨╗╨░╤Б╤В╤М */
+        text-overflow: ellipsis;
+        /* ╨Ф╨╛╨▒╨░╨▓╨╗╤П╨╡╨╝ ╨╝╨╜╨╛╨│╨╛╤В╨╛╤З╨╕╨╡ */ }
+    #autorization .for_form .form {
+      max-width: 200px;
+      margin: 25px auto; }
+      #autorization .for_form .form input[type="text"], #autorization .for_form .form input[type="password"], #autorization .for_form .form input[type="email"] {
+        margin: 5px 0;
+        background: none;
+        color: #fff;
+        font-size: 20px;
+        width: 100%;
+        height: 35px;
+        border: 2px solid #fff;
+        border-radius: 4px;
+        padding: 10px;
+        outline: none; }
+        #autorization .for_form .form input[type="text"]:focus, #autorization .for_form .form input[type="password"]:focus, #autorization .for_form .form input[type="email"]:focus {
+          outline: 0;
+          border-color: #449d44; }
+        #autorization .for_form .form input[type="text"]:-webkit-autofill, #autorization .for_form .form input[type="password"]:-webkit-autofill, #autorization .for_form .form input[type="email"]:-webkit-autofill {
+          -webkit-box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.85) !important;
+          /* ╨ж╨▓╨╡╤В ╤Д╨╛╨╜╨░ */
+          -webkit-text-fill-color: #fff !important;
+          /* ╤Ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ */
+          color: #fff !important;
+          /* ╤Ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ */ }
+      #autorization .for_form .form input[type="submit"] {
+        margin: 10px auto;
+        width: 100%; }
+        #autorization .for_form .form input[type="submit"]:focus {
+          outline: 0; }
+      #autorization .for_form .form #password_recovery_form {
+        display: none; }
+
+/*# sourceMappingURL=autorization.css.map */

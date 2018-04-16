@@ -1,0 +1,61 @@
+#userPageBlock {
+  display: none;
+  #userPage {
+    background: url('http://thecodeplayer.com/u/m/b1.png') no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    .for_form {
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      max-width: 450px;
+      //height: 400px;
+      padding: 30px;
+      margin: 0 25%;
+      h4 {
+        text-align: center;
+        font-size: 25px;
+        color: #fff;
+      }
+      .btn-success {
+        font-size: 20px;
+        font-weight: normal;
+      }
+      .form {
+        max-width: 200px;
+        margin: 25px auto;
+        label {
+          color: #ffffff;
+        }
+        input[type="text"], input[type="password"], input[type="email"] {
+          margin: 5px 0;
+          background: none;
+          color: #fff;
+          font-size: 20px;
+          width: 100%;
+          height: 35px;
+          border: 2px solid #fff;
+          border-radius: 4px;
+          padding: 10px;
+          &:focus {
+            outline: 0;
+            border-color: #449d44;
+          }
+          outline: none;
+          &:-webkit-autofill {
+            -webkit-box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.85) !important; /* Цвет фона */
+            -webkit-text-fill-color: #fff !important; /* цвет текста */
+            color: #fff !important; /* цвет текста */
+          }
+        }
+        input[type="button"] {
+          margin: 10px auto;
+          width: 100%;
+          &:focus {
+            outline: 0;
+          }
+        }
+      }
+    }
+  }
+}
